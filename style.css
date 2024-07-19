@@ -149,20 +149,71 @@ h2 {
 }
 
 
-@media only screen and (min-width: 1024px) {
-    #awaw li, a{
-        font-size: 24px;
+/* Mobile Devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .container1, .container2, .container3, .container4 {
+      padding: 10px;
     }
-    #home h1, p{
-        font-size: 35px;
+    .navbar {
+      padding: 5px;
     }
-    #about p {
-      font-size: 24px; /* or any other size you prefer */
+    .navbar li {
+      margin-right: 10px;
     }
-    #projects h3, p, h2{
-        font-size: 24px;
+    .container1 img {
+      width: 150px;
+      height: 150px;
     }
-    #contact h2, p, a{
-        font-size: 24px;
+    h1, h2, h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Tablets (max-width: 768px) */
+  @media only screen and (max-width: 768px) {
+    .container1, .container2, .container3, .container4 {
+      padding: 15px;
+    }
+    .navbar {
+      padding: 10px;
+    }
+    .navbar li {
+      margin-right: 15px;
+    }
+    .container1 img {
+      width: 200px;
+      height: 200px;
+    }
+    h1, h2, h3 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Desktops (min-width: 1024px) */
+  @media only screen and (min-width: 1024px) {
+    .container1, .container2, .container3, .container4 {
+      padding: 20px;
+    }
+    .navbar {
+      padding: 15px;
+    }
+    .navbar li {
+      margin-right: 20px;
+    }
+    .container1 img {
+      width: 250px;
+      height: 250px;
+    }
+    h1, h2, h3 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
     }
   }
